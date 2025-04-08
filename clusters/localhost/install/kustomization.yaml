@@ -9,6 +9,16 @@ labels:
 
 resources:
 - ../../../apps/fskrabak-ambulance-ufe
+- ../../../apps/fskrabak-ambulance-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
+  target: # error fix
+    group: ""
+    version: v1
+    kind: Service
+    name: fskrabak-ambulance-webapi
 
 components:
 - ../../../components/version-developers
+- https://github.com/filipskrabak/ambulance-webapi//deployments/kustomize/components/mongodb
