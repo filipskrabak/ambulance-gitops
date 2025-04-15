@@ -4,3 +4,6 @@ images:
 - name: filipskrabak/ambulance-ufe
   newName: filipskrabak/ambulance-ufe
   newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: filipskrabak/ambulance-wl-webapi
+  newName: filipskrabak/ambulance-wl-webapi
+  newTag: 1.1.0
