@@ -12,7 +12,7 @@ labels:
 
 resources:
 - ../../../apps/fskrabak-ambulance-ufe
- ../../../apps/fskrabak-ambulance-webapi
+- ../../../apps/fskrabak-ambulance-webapi
 
 
 components:
