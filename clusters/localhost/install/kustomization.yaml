@@ -19,6 +19,7 @@ patches:
     version: v1
     kind: Service
     name: fskrabak-ambulance-webapi
+- path: patches/mongodb-auth.secret.yaml
 
 components:
 - ../../../components/version-developers
